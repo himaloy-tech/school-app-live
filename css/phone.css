@@ -14,10 +14,6 @@
     align-items: center;
 }
 
-.box-front img{
-    margin: none;
-    height: 200px;
-}
 
 form{
     width: 82%;
@@ -54,5 +50,9 @@ input, textarea{
     }
     .v-nav{
         opacity: 0;
+    }
+    .box-front img{
+        height: 200px;
+        width: 96%;
     }
 }
