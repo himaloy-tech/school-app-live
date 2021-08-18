@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1236px)" href="css/phone.css">
+</head>
+<body>
+    <nav id="navbar" class="h-nav">
+        <img id="logo" class="v-nav" src="images/logo.jpg" alt="logo">
+        <ul id="nav-list" class="v-nav">
+            <li class="list-item"><a href="#" class="active">Home</a></li>
+            <li class="list-item"><a href="#">About</a></li>
+            <li class="list-item"><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section id="banner">
+        <h1><span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+    </section>
+    <h1 class="center">our speciality</h1>
+    <section id="features">
+        <div class="box-front" id="box-1">
+            <img src="images/computers.jpg" alt="computer lab">
+            <h1>Computer Lab</h1>
+            <p>A computer lab is a space which provides computer services to a defined community. Computer labs are typically provided by libraries to the public, by academic institutions to students who attend the institution, or by other institutions to the public or to people affiliated with that institution.</p>
+        </div>
+        <div class="box-front" id="box-2">
+            <img src="images/computers.jpg" alt="computer lab">
+            <h1>Computer Lab</h1>
+            <p>A computer lab is a space which provides computer services to a defined community. Computer labs are typically provided by libraries to the public, by academic institutions to students who attend the institution, or by other institutions to the public or to people affiliated with that institution.</p>
+        </div>
+        <div class="box-front" id="box-3">
+            <img src="images/computers.jpg" alt="computer lab">
+            <h1>Computer Lab</h1>
+            <p>A computer lab is a space which provides computer services to a defined community. Computer labs are typically provided by libraries to the public, by academic institutions to students who attend the institution, or by other institutions to the public or to people affiliated with that institution.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <div id="form">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="text" id="text" placeholder="Enter your name here">
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <div class="container-btn">
+                    <a class="submit-btn">submit</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        Copyright &copy; 2021 Himaloy Mondal
+    </footer>
+</body>
+<script src="js/typing.js"></script>
+<script src="js/responsive.js"></script>
+</html>

@@ -1,0 +1,53 @@
+#banner{
+    height: 418px;
+}
+
+#features{
+    flex-direction: column;
+    margin: 5px;
+}
+
+.box-front{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-front img{
+    margin: none;
+    height: 200px;
+}
+
+form{
+    width: 82%;
+    margin-left: 3px;
+}
+
+@media screen and (max-width:500px) {
+    #navbar{
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+    }
+    .burger{
+        display: block;
+    }
+    #nav-list{
+        flex-direction: column;
+    }
+    .list-item{
+        margin: 10px;
+    }
+    #logo {
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h-nav{
+        height: 57px;
+    }
+    .v-nav{
+        opacity: 0;
+    }
+}
