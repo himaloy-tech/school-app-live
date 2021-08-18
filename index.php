@@ -13,8 +13,8 @@
         <img id="logo" class="v-nav" src="images/logo.jpg" alt="logo">
         <ul id="nav-list" class="v-nav">
             <li class="list-item"><a href="#" class="active">Home</a></li>
-            <li class="list-item"><a href="#">About</a></li>
-            <li class="list-item"><a href="#">Contact</a></li>
+            <li class="list-item"><a href="#features">About</a></li>
+            <li class="list-item"><a href="#form">Contact</a></li>
         </ul>
         <div class="burger">
             <div class="line"></div>

@@ -24,10 +24,13 @@ form{
     margin-left: 3px;
 }
 
+input, textarea{
+    width: 95%;
+}
+
 @media screen and (max-width:500px) {
     #navbar{
         flex-direction: column;
-        transition: all 0.5s ease-out;
     }
     .burger{
         display: block;
