@@ -7,7 +7,7 @@
     <title>School</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width:1236px)" href="css/phone.css">
-    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <nav id="navbar" class="h-nav">
