@@ -7,10 +7,11 @@
     <title>School</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width:1236px)" href="css/phone.css">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
 </head>
 <body>
     <nav id="navbar" class="h-nav">
-        <img id="logo" class="v-nav" src="images/logo.jpg" alt="logo">
+        <img id="logo" src="images/logo.jpg" alt="logo">
         <ul id="nav-list" class="v-nav">
             <li class="list-item"><a href="#" class="active">Home</a></li>
             <li class="list-item"><a href="#features">About</a></li>
