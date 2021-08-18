@@ -13,7 +13,7 @@
     <nav id="navbar" class="h-nav">
         <img id="logo" src="images/logo.jpg" alt="logo">
         <ul id="nav-list" class="v-nav">
-            <li class="list-item"><a href="#" class="active">Home</a></li>
+            <li class="list-item"><a href="#">Home</a></li>
             <li class="list-item"><a href="#features">About</a></li>
             <li class="list-item"><a href="#form">Contact</a></li>
         </ul>

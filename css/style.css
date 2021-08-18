@@ -44,7 +44,7 @@ html{
     margin: 6px;
 }
 
-.active, .list-item a:hover{
+.list-item a:hover{
     background-color: white;
     color: black !important;
     transition: all 0.6s;
