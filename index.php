@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,26 @@
     <link rel="stylesheet" media="screen and (max-width:1236px)" href="css/phone.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <div id="loader"></div>
+    <div class="loader">
+        <div class="loadingio-spinner-interwind-3gkqup0w6mj">
+            <div class="ldio-x5bo2aho19i">
+                <div>
+                    <div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav id="navbar" class="h-nav">
         <img id="logo" src="images/logo.jpg" alt="logo">
         <ul id="nav-list" class="v-nav">
@@ -32,17 +51,23 @@
         <div class="box-front" id="box-1">
             <img src="images/computers.jpg" alt="computer lab">
             <h1>Computer Lab</h1>
-            <p>A computer lab is a space which provides computer services to a defined community. Computer labs are typically provided by libraries to the public, by academic institutions to students who attend the institution, or by other institutions to the public or to people affiliated with that institution.</p>
+            <p>A computer lab is a space which provides computer services to a defined community. Computer labs are
+                typically provided by libraries to the public, by academic institutions to students who attend the
+                institution, or by other institutions to the public or to people affiliated with that institution.</p>
         </div>
         <div class="box-front" id="box-2">
             <img src="images/computers.jpg" alt="computer lab">
             <h1>Computer Lab</h1>
-            <p>A computer lab is a space which provides computer services to a defined community. Computer labs are typically provided by libraries to the public, by academic institutions to students who attend the institution, or by other institutions to the public or to people affiliated with that institution.</p>
+            <p>A computer lab is a space which provides computer services to a defined community. Computer labs are
+                typically provided by libraries to the public, by academic institutions to students who attend the
+                institution, or by other institutions to the public or to people affiliated with that institution.</p>
         </div>
         <div class="box-front" id="box-3">
             <img src="images/computers.jpg" alt="computer lab">
             <h1>Computer Lab</h1>
-            <p>A computer lab is a space which provides computer services to a defined community. Computer labs are typically provided by libraries to the public, by academic institutions to students who attend the institution, or by other institutions to the public or to people affiliated with that institution.</p>
+            <p>A computer lab is a space which provides computer services to a defined community. Computer labs are
+                typically provided by libraries to the public, by academic institutions to students who attend the
+                institution, or by other institutions to the public or to people affiliated with that institution.</p>
         </div>
     </section>
     <section class="contact">
@@ -71,11 +96,13 @@
 <script src="js/typing.js"></script>
 <script src="js/responsive.js"></script>
 <script>
-    document.addEventListener('load', () => {
-        const loader = document.querySelector('#loader');
+    window.addEventListener('load', () => {
+        const loader = document.querySelector('.loader');
+        const animation = document.querySelector('.loadingio-spinner-interwind-3gkqup0w6mj');
+        animation.style.display = 'none';
         loader.style.display = 'none';
     });
-    function submit(){
+    function submit() {
         document.querySelector('form').submit();
     }
 </script>
