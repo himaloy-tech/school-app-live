@@ -16,6 +16,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 99;
 }
 
 @keyframes ldio-x5bo2aho19i-r {
