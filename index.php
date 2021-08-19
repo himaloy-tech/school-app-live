@@ -102,7 +102,6 @@
         const animation = document.querySelector('.loadingio-spinner-interwind-3gkqup0w6mj');
         animation.style.display = 'none';
         loader.style.display = 'none';
-        html.style.overflow = null;
     });
     function submit() {
         document.querySelector('form').submit();
