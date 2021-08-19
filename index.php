@@ -71,14 +71,9 @@
 <script src="js/typing.js"></script>
 <script src="js/responsive.js"></script>
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('load', () => {
         const loader = document.querySelector('#loader');
-        const html = document.querySelector('html');
-        const body = document.querySelector('body');
         loader.style.display = 'none';
-        html.style.height = null;
-        body.style.alignContent = null;
-        body.style.display = 'block';
     });
     function submit(){
         document.querySelector('form').submit();
