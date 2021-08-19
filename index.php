@@ -98,10 +98,12 @@
 <script>
     window.addEventListener('load', () => {
         const loader = document.querySelector('.loader');
-        const html = document.querySelector('html');
         const animation = document.querySelector('.loadingio-spinner-interwind-3gkqup0w6mj');
         animation.style.display = 'none';
         loader.style.display = 'none';
+        var style = document.createElement("style");
+        style.innerHTML = `body{overflow: visible;}`;
+        document.head.appendChild(style);
     });
     function submit() {
         document.querySelector('form').submit();
