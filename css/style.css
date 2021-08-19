@@ -231,6 +231,8 @@ footer{
     padding: 10px;
 }
 
+/* Hamburger Menu */
+
 .burger{
     display: none;
     position: absolute;

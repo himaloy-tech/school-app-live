@@ -48,13 +48,14 @@
         <div id="form">
             <form>
                 <label for="name">Name:</label>
-                <input type="text" name="text" id="text" placeholder="Enter your name here">
+                <input type="text" name="text" id="text" placeholder="Enter your name here" required>
                 <label for="subject">Subject:</label>
-                <input type="text" name="subject" id="subject" placeholder="Subject">
+                <input type="text" name="subject" id="subject" placeholder="Subject" required>
                 <label for="message">Message:</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
                 <div class="container-btn">
-                <button class="submit-btn" type="submit">submit</button>                </div>
+                    <button class="submit-btn" type="submit">submit</button>     
+                </div>
             </form>
         </div>
     </section>
