@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <div id="loader"></div>
     <nav id="navbar" class="h-nav">
         <img id="logo" src="images/logo.jpg" alt="logo">
         <ul id="nav-list" class="v-nav">
@@ -48,13 +49,14 @@
         <div id="form">
             <form>
                 <label for="name">Name:</label>
-                <input type="text" name="text" id="text" placeholder="Enter your name here" required>
+                <input type="text" name="text" id="text" placeholder="Enter your name" required>
                 <label for="subject">Subject:</label>
                 <input type="text" name="subject" id="subject" placeholder="Subject" required>
                 <label for="message">Message:</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
                 <div class="container-btn">
-                    <button class="submit-btn" type="submit">submit</button>     
+                    <!-- <a class="submit-btn" onclick="submit()">submit</a> -->
+                    <button class="submit-btn" type="submit">submit</button>
                 </div>
             </form>
         </div>
@@ -62,7 +64,24 @@
     <footer>
         Copyright &copy; 2021 Himaloy Mondal
     </footer>
+    <!-- <div class="social-media-icons">
+        <a href="https://www.youtube.com/user/nsdcindiaofficial" class="youtube" target="_blank"><img src="images/youtube.png" alt="youtube logo"></a>
+    </div> -->
 </body>
 <script src="js/typing.js"></script>
 <script src="js/responsive.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const loader = document.querySelector('#loader');
+        const html = document.querySelector('html');
+        const body = document.querySelector('body');
+        loader.style.display = 'none';
+        html.style.height = null;
+        body.style.alignContent = null;
+        body.style.display = 'block';
+    });
+    function submit(){
+        document.querySelector('form').submit();
+    }
+</script>
 </html>

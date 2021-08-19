@@ -10,6 +10,37 @@ html{
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-content: center;
+} 
+
+#loader {
+    width: 30px;
+    height: 30px;
+    animation: loading 1s infinite ease-out;
+    margin: auto;
+    border-radius: 50%;
+    background-color: red;
+}
+
+@keyframes loading {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(8);
+        opacity: 0;
+    }
+}
+  
 #navbar{
     position: sticky;
     display: flex;
@@ -50,6 +81,8 @@ html{
     transition: all 0.6s;
 }
 
+/* Banner image */
+
 #banner{
     height: 400px;
     display: flex;
@@ -75,6 +108,7 @@ html{
     text-shadow: 2px 3px 5px rgba(0,0,0,1);
     padding: 0 40px;
     font-size: 3rem;
+    text-align: center;
 }
 
 #banner h1 span.cursor {
@@ -95,6 +129,8 @@ html{
     100%  { background-color: #ccc; }
 }
 
+/* Our speciality */
+
 .center{
     text-align: center;
     text-transform: uppercase;
@@ -103,6 +139,7 @@ html{
     color: #342929;
 }
 
+/* Cards */
 #features{
     display: flex;
     justify-content: center;
@@ -139,6 +176,8 @@ html{
     transition: all 0.3s ease-out;
     box-shadow: 7px 5px 24px 3px rgba(0,0,0,0.75);
 }
+
+/* Contact Us */
 
 #form{
     display: flex;
@@ -224,6 +263,8 @@ label{
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.6);
 }
 
+/* footer */
+
 footer{
     text-align: center;
     background-color: #191919;
@@ -231,8 +272,7 @@ footer{
     padding: 10px;
 }
 
-/* Hamburger Menu */
-
+/* Ham Burger */
 .burger{
     display: none;
     position: absolute;
@@ -246,4 +286,23 @@ footer{
     background-color: white;
     height: 5.5px;
     margin: 4px 3px;
+}
+
+/* Social Media */
+.social-media-icons {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.social-media-icons a {
+    display: block;
+    padding: 5px;
+}
+
+
+.social-media-icons a img{
+    height: 33px;
+    border-radius: 9px;
 }
