@@ -54,8 +54,7 @@
                 <label for="message">Message:</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                 <div class="container-btn">
-                    <a class="submit-btn">submit</a>
-                </div>
+                <button class="submit-btn" type="submit">submit</button>                </div>
             </form>
         </div>
     </section>

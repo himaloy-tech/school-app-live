@@ -192,6 +192,7 @@ label{
     border-radius: 30px;
     font-size: 1.3rem;
     position: relative;
+    border: none;
 }
 
 .submit-btn::before{
